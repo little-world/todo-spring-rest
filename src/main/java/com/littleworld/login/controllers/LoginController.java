@@ -22,7 +22,7 @@ public class LoginController {
   }
 
   @PutMapping("/login")
-  public Login update( @RequestBody Todo todo){
+  public Login update( @RequestBody Login login){
     return null;
   }
 
@@ -32,12 +32,12 @@ public class LoginController {
   }
 
   @GetMapping("/login")
-  public List<Todo> findAll() {
+  public List<Login> findAll() {
     return null;
   }
 
   @GetMapping("/login/{id}")
-  public Optional<Todo> todoById(@PathVariable  int id) {
+  public Optional<Login> todoById(@PathVariable  int id) {
     return null;
   }
 
